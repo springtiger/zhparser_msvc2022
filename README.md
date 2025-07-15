@@ -1,6 +1,7 @@
 1. 下载[scws-1.2.3.tar.bz2](https://www.xunsearch.com/scws/down/scws-1.2.3.tar.bz2)
 2. 解压scws-1.2.3.tar.bz2至zhparser_msvc2022同一级目录,并更名为scws
    得到目录结构为
+   
    --|scws
      |zhparser_msvc2022
 4. 新建系统环境变量 PG_HOME 为PostgreSQL安装路径，如: C:\Program Files\PostgreSQL\15\
