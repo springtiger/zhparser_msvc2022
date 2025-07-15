@@ -1,11 +1,12 @@
 1. 下载[scws-1.2.3.tar.bz2](https://www.xunsearch.com/scws/down/scws-1.2.3.tar.bz2)
 2. 解压scws-1.2.3.tar.bz2至zhparser_msvc2022同一级目录,并更名为scws
-   得到目录结构为  --|scws
-   		    |zhparser_msvc2022
-3. 新建系统环境变量 PG_HOME 为PostgreSQL安装路径，如: C:\Program Files\PostgreSQL\15\
-4. 如果是中文环境，将zhparser.c以 “简体中文(GB2312）-代码页936” 编码另存
-5. 运行 x64 Native Tools Command Prompt for VS 2022
-6. 执行命令：
+   得到目录结构为
+   --|scws
+     |zhparser_msvc2022
+4. 新建系统环境变量 PG_HOME 为PostgreSQL安装路径，如: C:\Program Files\PostgreSQL\15\
+5. 如果是中文环境，将zhparser.c以 “简体中文(GB2312）-代码页936” 编码另存
+6. 运行 x64 Native Tools Command Prompt for VS 2022
+7. 执行命令：
    msbuild zhparser.sln /t:Rebuild /p:Configuration=Release /p:Platform=x64 /m:10
 
 
